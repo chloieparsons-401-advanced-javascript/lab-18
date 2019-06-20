@@ -10,3 +10,5 @@ socket.on('file-save', payload => {
 socket.on('file-error', payload => {
   console.log('Uhoh! Error.', payload);
 });
+
+module.exports = exports = {io, socket};
