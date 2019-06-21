@@ -4,7 +4,7 @@
 ### Author: Chloie Parsons 
 
 ## Links and Resources
-* ![submission PR](https://github.com/chloieparsons-401-advanced-javascript/lab-18/pull/1)
+* ![Submission PR](https://github.com/chloieparsons-401-advanced-javascript/lab-18/pull/1)
 * ![Travis](https://www.travis-ci.com/chloieparsons-401-advanced-javascript/lab-18)
 
 
@@ -21,8 +21,6 @@
 
 ## Setup
 ```npm i``` to install dependencies
-### .env requirements
-    PORT - 3000
 
 
 
@@ -32,9 +30,9 @@
 
 
 ## Tests
-* ```npm run test```
-* ```npm run test-watch```
-* ```npm run lint```
+* ```npm test```
+* ```npm test-watch```
+* ```npm lint```
 
 ##UML
-![Socket.IO](assets/socket_io.JPG)
+![Socket.IO](./assets/socket_io.JPG)
