@@ -4,8 +4,8 @@
 ### Author: Chloie Parsons 
 
 ## Links and Resources
-* ![Submission PR](https://github.com/chloieparsons-401-advanced-javascript/lab-18/pull/1)
-* ![Travis](https://www.travis-ci.com/chloieparsons-401-advanced-javascript/lab-18)
+* [Submission PR](https://github.com/chloieparsons-401-advanced-javascript/lab-18/pull/1)
+* [Travis](https://www.travis-ci.com/chloieparsons-401-advanced-javascript/lab-18)
 
 
 ## Modules
