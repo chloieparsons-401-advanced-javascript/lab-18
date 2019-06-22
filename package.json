@@ -1,0 +1,30 @@
+{
+  "name": "lab-18",
+  "version": "1.0.0",
+  "description": "Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint": "eslint \"**/*.js\"",
+    "test-watch": "jest --watchAll",
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chloieparsons-401-advanced-javascript/lab-18.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chloieparsons-401-advanced-javascript/lab-18/issues"
+  },
+  "homepage": "https://github.com/chloieparsons-401-advanced-javascript/lab-18#readme",
+  "dependencies": {
+    "eslint": "^5.16.0",
+    "jest": "^24.8.0",
+    "lint": "^0.7.0",
+    "socket-io": "^1.0.0",
+    "socket.io-client": "^2.2.0",
+    "util.promisify": "^1.0.0"
+  }
+}
