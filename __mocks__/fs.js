@@ -1,7 +1,6 @@
 'use strict';
 
-//module.exports = exports => {} see demo on 
-// google socket.io jest mock
+module.exports = exports => {};
 
 exports.readFile = (file, cb) => {
   if( (!file) || file.match(/bad/i)) {

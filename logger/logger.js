@@ -3,12 +3,15 @@
 const io = require('socket.io-client');
 const socket = io.connect('http://localhost:3000');
 
-socket.on('file-save', payload => {
-  console.log('You saved it, good job!', payload);
-});
+socket.on('file-save', fileSave);
+socket.on('file-error', fileError);
 
-socket.on('file-error', payload => {
-  console.log('Uhoh! Error.', payload);
-});
+function fileSave(payload) {
+  console.log('file-saved', payload);
+}
 
-module.exports = exports = {io, socket};
+function fileError(payload) {
+  console.error('file-error', payload);
+}
+
+module.exports = {fileSave, fileError};
